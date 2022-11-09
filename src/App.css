@@ -1,0 +1,164 @@
+body{
+  background: #05292E;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.container-morty{
+  background-image: url('../public/image/rick.png');
+  background-size: cover;
+  width: 1264px;
+  height: 372px;
+  left: 0px;
+  top:0px;
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+
+.container-search{
+  align-items: center;
+}
+
+input{
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid cyan;
+}
+
+button{
+  border-radius: 5px;
+  border: 2px solid cyan;
+  cursor: pointer;
+}
+
+.container-info{
+  background: #062226;
+  position: absolute;
+  width: 890px;
+  height: 126px;
+  left: 275px;
+  margin-top: 50px;
+  margin-bottom: 57px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 1200px;
+}
+
+.container-location{
+  background-color: #062226;
+  position: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 437px;
+  height: 696px;
+  left: 728px;
+  margin-top:200px;
+  border: 2px solid cyan;
+  box-shadow:  3px 3px 3px 3px cyan;
+  border-radius: 0px 0px 4px 4px;
+  margin-bottom: 15px;
+  transition: all 0.7s ease;
+  cursor: pointer;
+}
+
+.container-location:hover{
+  transform: translateY(-0.5rem);
+}
+
+.info-card{
+  display: flex;
+  display:block;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 300px;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+h2{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 21px;
+  margin-left: 12px;
+}
+
+b{
+  display: flex;
+  margin-left: auto;
+  color: #FFFFFF;
+}
+
+span{
+  color: cyan;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+img{
+  width: 437px;
+  height: 402px;
+  border-radius: 4px 4px 0px 0px;
+}
+
+p{
+  color: #FBFBFB;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 21px;
+  margin-left: 12px;
+}
+
+small > b{
+  display: flex;
+  position: absolute;
+  margin-top: 20px;
+  color: cyan;
+  font-size: large;
+  background-color: rgba(128, 128, 128, 0.87);
+  border-radius: 5px;
+  width: max-content;
+  margin-left: 12px;
+}
+
+hr{
+  width: 421px;
+  height: 0px;
+  left: 736px;
+  top: 1060px;
+  border: 0.5px solid #084851;
+}
+
+.status-Alive{
+  color: greenyellow;
+}
+
+.status-Dead{
+  color: maroon;
+}
+.status-unknown{
+  color: grey;
+}
